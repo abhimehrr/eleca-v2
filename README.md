@@ -1,29 +1,13 @@
-<!-- Dark mode styles -->
-<style>
-  body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
-  }
-  a {
-    color: #6bd1ff;
-  }
-  img {
-    max-width: 100%;
-  }
-  .primary-color {
-    color: #00c7b7;
-  }
-</style>
-
 # eleca - Services, Price, and User Management
+February 2024
+[visit eleca](https://eleca.shre.in)
 
-![eleca](https://eleca.shre.in)
+[Old Source Code : eleca-v1](https://github.com/abhimehrr/eleca-v1)
+V1 : September 2023
+
+
+![User Home Page](https://a.shre.in/assets/screenshots/eleca-v2/01.png)
+
 
 ## Overview
 
@@ -40,6 +24,8 @@ eleca is a user-friendly application designed to make your life simpler. With el
 - **Warranty Tracking**: Stay on top of warranties for new items sold at your shop. Keep records of warranty periods and expiration dates to ensure your customers have peace of mind with their purchases.
 
 With eleca, you'll streamline your business operations and enhance customer satisfaction. It's the go-to solution for service, pricing, and warranty management, all in one convenient package!
+
+
 
 ## Stack
 
@@ -60,9 +46,17 @@ With eleca, you'll streamline your business operations and enhance customer sati
 
 ## Gallery
 
-![project-image1](https://example.com/project-image1.png)
-![project-image2](https://example.com/project-image2.png)
-![project-image3](https://example.com/project-image3.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/01.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/02.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/03.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/04.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/05.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/06.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/07.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/08.png)
+![Image](https://a.shre.in/assets/screenshots/eleca-v2/09.png)
+
+
 
 ## Let's Talk
 
