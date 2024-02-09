@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+.divider {
+    @apply w-full h-[1px] bg-teal-600
+}
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+input[type="checkbox"], 
+input[type="radio"]
+{
+    accent-color: teal;
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    @apply bg-slate-800
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-200 rounded-xl
+}
+.search-manager-scroll::-webkit-scrollbar-track {
+    @apply bg-transparent
+}
+.search-manager-scroll::-webkit-scrollbar-thumb {
+    @apply bg-teal-500 rounded-xl
+}
+
+.main-image-box {
+    background: var(--src);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.image-box {
+    background: var(--src);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid rgb(192, 192, 192);
+}
+.customer-field {
+    display: grid;
+    grid-template-columns: 70% 35%;
+}
+.payment-field {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: 30% auto;
+}
+
+@media (max-width: 500px) {
+    .customer-field {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .payment-field {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+}

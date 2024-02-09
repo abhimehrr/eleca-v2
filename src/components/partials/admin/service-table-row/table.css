@@ -1,0 +1,13 @@
+
+tr {
+    display: grid;  
+    grid-template-columns: 1fr 2fr 3fr 1fr 2fr;
+    column-gap: 5px;
+    padding: 5px;
+}
+tbody tr {
+    margin: 8px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
